@@ -1,0 +1,1 @@
+CC99='mpicc -std=c99' qcc -Wall -O2 -D_MPI=1 -D_FILE_OFFSET_BITS=64  LaminarLaminar.c -o main_exe -L$BASILISK/gl -lglutils -lfb_tiny -lm
